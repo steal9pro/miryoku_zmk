@@ -1,8 +1,11 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-//  #include "../miryoku/custom_config.h"
-//
-#include "../miryoku/klor_config.h"
+#include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/44/klor.h"
 #include "../miryoku/miryoku.dtsi"
+
+CONFIG_EC11=y
+CONFIG_EC11_TRIGGER_GLOBAL_THREAD=y
+CONFIG_ZMK_DISPLAY=y
+
