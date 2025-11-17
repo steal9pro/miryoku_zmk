@@ -10,4 +10,5 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["klor_left","klor_right"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=y", "MIRYOKU_ALPHAS=QWERTY"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
+      alphas: '["qwerty"]'
